@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+
+export default React.createClass({
+	displayName: '$1',
+
+	render () {
+		return (
+			<div>$0$1</div>
+		);
+	}
+});
+
+]]></content>
+    <tabTrigger>rccc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: component skeleton</description>
+</snippet>

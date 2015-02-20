@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+import StorePrototype from 'common/StorePrototype';
+
+class Store extends StorePrototype {
+	constructor() {
+		super();
+		this.registerHandlers({
+			$0
+		});
+	}
+}
+
+export default new Store();
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>store</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.jsx</scope> -->
+</snippet>
